@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Amatic SC", cursive;
+
+}
+
+.nav {
+  height: 30vh;
+  background-color: #102724;
+ 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.item-desc {
+  color: #4f3317;
+  margin: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.price {
+  color: #d4047b;
+  font-size: 30px;
+}
+.btn-purchase {
+  width: 100px;
+  padding: 10px 0;
+  background-color: #4f3317;
+  margin-bottom: 10px;
+
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #0affce;
+  font-family: "Amatic SC", cursive;
+}
+.image {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.filter-btns {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.filter-btns button {
+  width: 150px;
+  padding: 10px 0;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #0affce;
+  font-family: "Amatic SC", cursive;
+}
+.btn-all {
+  background-color: black;
+}
+.btn-books {
+  background-color: #cd7209;
+}
+.btn-shoes {
+  background-color: #073830;
+}
+.btn-people {
+  background-color: #4f3317;
+}
+
+.btn-birds {
+  background-color: #d4047b;
+}
+
+@media screen and (max-width:400px){
+.item{
+      
+       margin-left:120px!important;
+      }
+      .image{
+          width:250px;
+          height:250px;
+      }
+      .filter-btns button{
+          width:70px;
+          font-size:20px;
+      }
+      .nav{
+          width:200%;
+      }
+}
